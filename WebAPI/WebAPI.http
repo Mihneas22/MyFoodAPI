@@ -1,6 +1,6 @@
 @WebAPI_HostAddress = http://localhost:5296
 
-GET {{WebAPI_HostAddress}}/weatherforecast/
+GET {{WebAPI_HostAddress}}/api/food/getFoodByCode/3017624010701
 Accept: application/json
 
 ###
