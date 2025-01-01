@@ -40,6 +40,7 @@ namespace Domain.Entities
 
         public double? MealFatsPerMeal { get; set; }
 
+        public List<Rate>? Rates { get; set; }
         public double? Rating { get; set; }
     }
 }

@@ -17,5 +17,6 @@ namespace Infastructure.Context
         }
 
         public DbSet<Meal> MealEntity { get; set; }
+        public DbSet<Rate > RateEntity { get; set; }
     }
 }
