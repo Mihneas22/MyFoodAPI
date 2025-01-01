@@ -24,22 +24,22 @@ namespace Domain.Entities
 
         public int? MealTotalWeight { get; set; }
 
-        public float? Calories100g {  get; set; }
+        public double? Calories100g {  get; set; }
 
-        public float? MealProtein100g {  get; set; }
+        public double? MealProtein100g {  get; set; }
 
-        public float? MealCarbs100g { get; set; }
+        public double? MealCarbs100g { get; set; }
 
-        public float? MealFats100g {  get; set; }
+        public double? MealFats100g {  get; set; }
 
-        public float? CaloriesPerMeal { get; set; }
+        public double? CaloriesPerMeal { get; set; }
 
-        public float? MealProteinPerMeal { get; set; }
+        public double? MealProteinPerMeal { get; set; }
 
-        public float? MealCarbsPerMeal { get; set; }
+        public double? MealCarbsPerMeal { get; set; }
 
-        public float? MealFatsPerMeal { get; set; }
+        public double? MealFatsPerMeal { get; set; }
 
-        public float? Rating { get; set; }
+        public double? Rating { get; set; }
     }
 }

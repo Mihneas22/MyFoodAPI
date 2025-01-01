@@ -1,8 +1,8 @@
 ﻿using Application.Services.GetFoodByCode;
 using Domain.Entities;
 using Microsoft.AspNetCore.Http;
-using Application.DTOs.GetFoodByCode;
 using Microsoft.AspNetCore.Mvc;
+using Application.DTOs.Services.GetFoodByCode;
 
 namespace WebAPI.Controllers
 {

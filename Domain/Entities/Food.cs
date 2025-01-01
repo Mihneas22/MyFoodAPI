@@ -61,9 +61,9 @@ namespace Domain.Entities
         public int? energy { get; set; }
         public int? energy_points { get; set; }
         public int? energy_value { get; set; }
-        public int? fiber { get; set; }
+        public double? fiber { get; set; }
         public int? fiber_points { get; set; }
-        public int? fiber_value { get; set; }
+        public double? fiber_value { get; set; }
         public double? fruits_vegetables_nuts_colza_walnut_olive_oils { get; set; }
         public int? fruits_vegetables_nuts_colza_walnut_olive_oils_points { get; set; }
         public double? fruits_vegetables_nuts_colza_walnut_olive_oils_value { get; set; }
@@ -81,9 +81,9 @@ namespace Domain.Entities
         public int? saturated_fat_points { get; set; }
         public double? saturated_fat_value { get; set; }
         public int? score { get; set; }
-        public int? sodium { get; set; }
+        public double? sodium { get; set; }
         public int? sodium_points { get; set; }
-        public int? sodium_value { get; set; }
+        public double? sodium_value { get; set; }
         public double? sugars { get; set; }
         public int? sugars_points { get; set; }
         public double? sugars_value { get; set; }

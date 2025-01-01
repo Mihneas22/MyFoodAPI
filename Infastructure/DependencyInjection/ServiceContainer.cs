@@ -1,5 +1,7 @@
-﻿using Application.Services.GetFoodByCode;
+﻿using Application.Repository;
+using Application.Services.GetFoodByCode;
 using Infastructure.Context;
+using Infastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,6 +24,7 @@ namespace Infastructure.DependencyInjection
             ServiceLifetime.Scoped);
 
             services.AddScoped<IFood, FoodService>();
+            services.AddScoped<IMeal, MealRepository>();
 
             return services;
         }

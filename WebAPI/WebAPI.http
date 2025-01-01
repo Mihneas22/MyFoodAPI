@@ -1,6 +1,13 @@
 @WebAPI_HostAddress = http://localhost:5296
 
-GET {{WebAPI_HostAddress}}/api/food/getFoodByCode/3017624010701
+GET {{WebAPI_HostAddress}}/api/meal/getMealByName/Chicken%20Nuggets
 Accept: application/json
-
+Content-Type: application/json
+{
+    "Name": "Chicken Nuggets",
+    "Description": "Cut the chicken breasts into bite-sized chunks (about 1-2 inches in size). Pat the chicken pieces dry with a paper towel to remove excess moisture. In a mixing bowl, combine salt, black pepper, garlic powder, and paprika. Toss the chicken chunks in the seasoning mixture to coat evenly. Place flour in one shallow dish. Beat eggs in another dish, and mix in milk (optional). Spread breadcrumbs in a third dish. Dredge each piece of chicken in flour, shaking off excess. Dip the floured chicken into the beaten egg mixture. Coat the chicken with breadcrumbs, pressing gently to adhere. Place the breaded chicken pieces on a tray and refrigerate for 20 minutes. This helps the breading stick better during frying. Heat oil in a deep frying pan or pot to 175°C (350°F). Fry the chicken nuggets in batches, ensuring not to overcrowd the pan. Cook for about 3-4 minutes per side, or until golden brown and the internal temperature reaches 75°C (165°F). Use a slotted spoon to transfer the fried nuggets onto a plate lined with paper towels to drain excess oil. Serve hot with your favorite dipping sauce, such as ketchup, barbecue sauce, or honey mustard.",
+    "Nationality": "USA",
+    "FoodCodes": ["5057008920361", "3068111301246","6426064000017","5941006848546"],
+    "FoodWeight": [500, 100, 80, 150]
+}
 ###

@@ -1,4 +1,4 @@
-﻿using Application.DTOs.GetFoodByCode;
+﻿using Application.DTOs.Services.GetFoodByCode;
 using Domain.Entities;
 using System;
 using System.Collections.Generic;

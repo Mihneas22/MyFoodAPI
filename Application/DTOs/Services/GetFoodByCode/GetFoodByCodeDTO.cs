@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.DTOs.GetFoodByCode
+namespace Application.DTOs.Services.GetFoodByCode
 {
     public class GetFoodByCodeDTO
     {
         [Required]
-        public string code {  get; set; } = string.Empty;
+        public string code { get; set; } = string.Empty;
     }
 }
