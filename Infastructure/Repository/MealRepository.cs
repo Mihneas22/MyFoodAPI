@@ -107,6 +107,14 @@ namespace Infastructure.Repository
             if(meal == null)
                 return new GetMealByNameResponse(false, "Meal not found");
 
+            var rates = await _dbContext.RateEntity.Where(r => r.MealName == getMealByNameDTO.Name).ToListAsync();
+
+            foreach(var rate in rates)
+            {
+                meal.Rating += rate.TheRating;
+            }
+            meal.Rating = meal.Rating / rates.Count;
+
             return new GetMealByNameResponse(false,"Success!",meal);
         }
 

@@ -1,6 +1,6 @@
 @WebAPI_HostAddress = http://localhost:5296
 
-GET {{WebAPI_HostAddress}}/api/meal/rating/getRatesForMeal/Chicken%20Nuggets
+GET {{WebAPI_HostAddress}}/api/meal/getMealByName/Chicken%20Nuggets
 Accept: application/json
 Content-Type: application/json
 { 
